@@ -1,0 +1,151 @@
+$s2: #0f1568;
+$s1: #9e9e9e;
+.wrapper {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    cursor: pointer;
+    &:hover {
+        .title ~ .icon {
+            padding-top: 6px;
+            display: block !important;
+        }
+        .menuTitle {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+    }
+}
+//---------Cart-channel-----------
+%node {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0 17px;
+    font-weight: 400;
+    font-size: 12px;
+    &:hover {
+        color: var(--primary);
+    }
+}
+.textStronger {
+    @extend %node;
+    color: $s2;
+}
+
+.text {
+    @extend %node;
+    color: $s1;
+}
+.hollow {
+    outline: none;
+    border: none;
+    display: block !important;
+    font-family: var(--font-family);
+    font-weight: 200;
+    line-height: 8.7px !important;
+}
+
+.title + .icon {
+    position: absolute;
+    right: 5%;
+    color: var(--primary);
+    display: none;
+    top: 0;
+    z-index: 1;
+}
+.title + .icon {
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+.title + .icon-blue {
+    padding-left: 5px;
+    color: #1a9cb7;
+}
+
+.title + .icon-menu {
+    padding-left: 15px;
+    color: var(--color-footer);
+}
+
+.icon-left {
+    padding-right: 1.5rem;
+    font-size: 18px;
+}
+
+.normal {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.large {
+    width: 387px;
+    height: 40px;
+    border: 1px solid var(--load-more);
+    color: var(--load-more);
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+}
+
+.medium {
+    width: 225px;
+    height: 44px;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+
+.yellow {
+    background: var(--btn-primary);
+    color: var(--white);
+    transition: all 0.3s ease-out;
+    &:hover {
+        border-color: var(--btn-dark-yellow);
+        background: var(--btn-dark-yellow);
+    }
+}
+
+.orange {
+    background: var(--primary);
+    color: var(--white);
+    transition: all 0.3s ease-out;
+    &:hover {
+        background: var(--btn-dark-orange);
+    }
+}
+
+.blue {
+    background-color: var(--btn-facebook);
+    color: var(--white);
+    border: 0;
+    outline: 0;
+}
+
+.tomato {
+    background-color: var(--btn-google);
+    color: var(--white);
+    border: 0;
+    outline: 0;
+}
+
+.border_btn {
+    border: 1px solid var(--link-color);
+    background: var(--white);
+    color: var(--link-color);
+}
+.border_btn:hover {
+    background: var(--link-color);
+    color: var(--white);
+    border: 1px solid var(--link-color);
+    border-radius: 3px;
+}

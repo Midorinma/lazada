@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: var(--default-layout-width);
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: calc(var(--height-slick-slide) + var(--height-header-links));
+    padding: 0 var(--default-layout-horizontal-spacer);
+    background-color: var(--primary-theme);
+}
+
+.content {
+    flex: 1;
+}

@@ -1,0 +1,74 @@
+.lzd-playground {
+    width: 100%;
+    min-width: 1188px;
+    min-height: 474px;
+    background: #eff0f4;
+    position: relative;
+    padding-bottom: 40px;
+    .lzd-playground-main {
+        position: relative;
+        width: 1188px;
+        min-width: 1188px;
+        margin: 0 auto;
+        .lzd-playground-nav {
+            position: absolute;
+            background: #eff0f4;
+            width: 158px;
+            height: 438px;
+            padding-top: 16px;
+            .member-info {
+                font-family: 'Roboto-Regular';
+                font-size: 12px;
+                line-height: 22px;
+                color: #424242;
+                letter-spacing: 0;
+            }
+            .member-info > p {
+                line-height: 22px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 158px;
+                display: block;
+                overflow: hidden;
+            }
+            .member-info > p span {
+                display: inline-block;
+                line-height: 22px;
+                height: 22px;
+            }
+            .nav-container {
+                list-style: none;
+                margin: 16px 0 0;
+                padding: 0;
+                font-family: 'Roboto-Regular';
+                font-size: 16px;
+                color: #424242;
+                letter-spacing: 0;
+                line-height: 24px;
+                .item {
+                    margin: 16px 0 0;
+                    h3 {
+                        text-decoration: none;
+                        color: #424242;
+                        font-family: 'Roboto-Medium';
+                        font-size: 17px;
+                    }
+                    .item-container {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0 0 0 16px;
+                    }
+                    .item-container li p {
+                        cursor: pointer;
+                        font-family: Roboto-Regular;
+                        font-size: 14px;
+                        color: #757575;
+                        letter-spacing: 0;
+                        line-height: 22px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

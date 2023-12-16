@@ -1,0 +1,83 @@
+.warranty {
+    font-size: 14px;
+    background-color: #fafafa;
+    color: #212121;
+    border-top: 1px solid #eff0f5;
+    .delivery-header {
+        display: table;
+        padding: 20px 16px 2px;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        .delivery-header__title {
+            display: table-cell;
+            font-size: 12px;
+            line-height: 12px;
+            color: #757575;
+            font-weight: 500;
+            font-family: Roboto-Medium;
+            width: 300px;
+        }
+        .delivery-header__tooltip {
+            display: table-cell;
+            text-align: right;
+            .delivery-tooltip__icon {
+                display: inline-block;
+                text-align: right;
+                color: #9e9e9e;
+                cursor: pointer;
+                width: 1em;
+                height: 1em;
+                fill: currentColor;
+                font-size: 1em;
+            }
+        }
+    }
+    .warranty__option-item {
+        padding: 10px 16px;
+        .delivery-option-item__body {
+            display: table;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .delivery-option-item__icon {
+            display: table-cell;
+            padding-right: 10px;
+            width: 35px;
+            box-sizing: border-box;
+        }
+        .delivery-option-item__info {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .delivery-option-item__title {
+            line-height: 14px;
+        }
+        .delivery-option-item_type_returnPolicy7 {
+            .delivery-option-item__icon {
+                padding-left: 2px;
+            }
+
+            .lzd-svg-icon_name_7days {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                fill: currentColor;
+                font-size: 24px;
+                color: #afadad;
+            }
+        }
+        .delivery-option-item_type_noWarranty {
+            .lzd-svg-icon_name_nowarrant {
+                width: 24px;
+                height: 24px;
+                object-fit: cover;
+            }
+        }
+        .delivery-option-item_type_noWarranty {
+            .delivery-option-item__icon {
+                padding-left: 3px;
+            }
+        }
+    }
+}
