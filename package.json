@@ -58,7 +58,8 @@
         "sass": "^1.64.1"
     },
     "scripts": {
-        "json:server": "json-server --watch db.json",
+        "server:dev": "json-server --watch db.json",
+        "server:prod": "json-server db.json",
         "start": "set PORT=3001 && react-app-rewired start",
         "start:prod": "serve -s build -l 3001",
         "build": "react-app-rewired build",
