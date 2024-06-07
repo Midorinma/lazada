@@ -1,0 +1,118 @@
+.Loading {
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.035);
+    background-color: rgba(0, 0, 0, 0.028);
+    transition: 3s linear 2s;
+    .recommend-loading {
+        height: 100%;
+        min-height: 50%;
+        background: url(https://lzd-img-global.slatic.net/g/tps/tfs/TB1ZXn5kh6I8KJjy0FgXXXXzVXa-206-205.gif)
+            no-repeat 50%;
+        background-size: 80px;
+    }
+}
+
+.next-feedback {
+    position: fixed;
+    left: 613.5px;
+    top: 200px;
+    box-sizing: border-box;
+    background-color: #fdecea;
+    border: 1px solid #f44336;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    z-index: 999;
+    .next-icon {
+        position: relative;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        text-transform: none;
+        color: #f44336;
+        line-height: 16px;
+        max-width: 788px;
+    }
+    .next-icon::before {
+        width: 16px;
+        font-size: 16px;
+        line-height: inherit;
+    }
+    .next-feedback-content {
+        padding: 0 12px 0 10px;
+        display: inline-block;
+        margin-top: 0;
+        color: #212121;
+        font-size: 15px;
+    }
+}
+
+.mod-dialog-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    .confirm {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        padding: 20px 24px;
+        box-sizing: border-box;
+        background: #fff;
+        box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.32);
+        outline: 0;
+        max-width: 300px;
+        .mod-dialog-title {
+            font-size: 16px;
+            color: #212121;
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+        .mod-dialog-cont {
+            color: #727272;
+            line-height: 24px;
+            margin-bottom: 12px;
+            font-size: 12px;
+            min-height: 50px;
+            word-wrap: break-word;
+            hyphens: auto;
+            max-height: 197px;
+            overflow-y: auto;
+        }
+        .mod-dialog-ft {
+            display: flex;
+            justify-content: flex-end;
+            .mod-dialog-ft-btn {
+                .cancel {
+                    color: #9e9e9e;
+                    background: none;
+                    border: none;
+                    outline: none;
+                    font-size: 14px;
+                    padding: 10px 0 0 10px;
+                    margin-left: 10px;
+                }
+                .ok {
+                    color: #1a9cb7;
+                    background: none;
+                    border: 0;
+                    font-size: 14px;
+                    padding: 10px 0 0 10px;
+                    margin-left: 10px;
+                    outline: 0;
+                }
+            }
+        }
+    }
+}

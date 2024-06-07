@@ -1,0 +1,22 @@
+.header-banner {
+    background-color: #4a79f6;
+    height: var(--height-banner);
+    width: var(--width-default);
+    color: transparent !important;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-close {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-close {
+    font-size: 25px;
+    color: var(--white);
+}

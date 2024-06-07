@@ -1,0 +1,90 @@
+.infor-product-description {
+    background-color: var(--white);
+    width: 100%;
+    .outer_title {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 52px;
+        line-height: 52px;
+        font-weight: 500;
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        line-height: 19px;
+        color: #212121;
+        letter-spacing: 0;
+        overflow: hidden;
+        padding-top: 2rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .pdp-product-detail {
+        position: relative;
+        .pdp-product-desc {
+            height: 600px;
+            overflow-y: hidden;
+            padding: 5px 14px 5px 24px;
+            box-sizing: border-box;
+            background-color: var(--white);
+            z-index: 0;
+            .pdp-mod-specification {
+                margin-top: 16px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #eff0f5;
+                font-size: 14px;
+                .pdp-mod-section-title {
+                    font-weight: 500;
+                    font-family: Roboto-Medium;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #212121;
+                    letter-spacing: 0;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .pdp-product-desc-after {
+            content: '';
+            height: 100px;
+            position: absolute;
+            bottom: 66px;
+            width: 100%;
+            left: 0;
+            background: linear-gradient(
+                -180deg,
+                hsla(0, 0%, 100%, 0) 6%,
+                #fff 83%
+            );
+        }
+
+        .pdp-product-desc-hide-after {
+            display: none;
+        }
+
+        .expand-button {
+            position: relative;
+            bottom: 0;
+            left: 0;
+            background: var(--white);
+            font-size: 13px;
+            line-height: 14px;
+            padding: 12px 0 18px;
+            text-align: center;
+            width: 100%;
+            margin: 0 !important;
+            z-index: 1;
+            .border_btn-blue {
+                display: inline-block;
+                line-height: 36px;
+                height: 36px;
+                font-size: var(--font-size-option);
+                padding: 0 24px;
+                border-radius: 2px;
+                transition: all 0.3s ease-out;
+                outline: none;
+            }
+        }
+    }
+}

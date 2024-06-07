@@ -1,0 +1,297 @@
+.pull_left {
+    float: left;
+}
+.wrapper {
+    width: var(--default-layout-width);
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    .footer-first {
+        background-color: var(--background-footer);
+        padding: 20px 0 25px;
+        color: var(--white);
+        .lzd-footer-inner {
+            overflow: hidden;
+        }
+        .footer-title {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 35px;
+            margin: 0;
+            color: var(--color-footer);
+        }
+        .footer-list {
+            padding: 0;
+            margin: 0;
+        }
+        .footer-li {
+            font-weight: 200;
+            line-height: 17px;
+            list-style: none;
+            .link-style {
+                color: var(--color-footer);
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .lzd-footer-app-downloads {
+            margin-top: 25px;
+            .icon-logo-lazada-footer {
+                background-size: cover;
+                width: 42px;
+                height: 42px;
+            }
+            .lzd-app-download-text {
+                padding: 0 15px;
+                margin-top: -5px;
+                .title {
+                    color: var(--primary);
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+                .text {
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: var(--color-footer);
+                }
+            }
+        }
+        .clear {
+            clear: both;
+        }
+        .lzd-footer-app-supplement {
+            color: var(--color-footer);
+            margin-top: 5px;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: #888;
+    }
+}
+
+.lzd-footer-inner {
+    .lzd-footer-width-25 {
+        width: 25%;
+        float: left;
+        overflow: hidden;
+    }
+    .lzd-footer-width-50 {
+        width: 50%;
+        overflow: hidden;
+        float: left;
+    }
+}
+.icon-logo-lazada-footer {
+    img {
+        display: inline-block;
+    }
+}
+
+.lzd-footer-app-downloads {
+    .lzd-footer-appStore {
+        display: inline-block;
+        width: 126px;
+        height: 42px;
+        margin: 1px 0 0 20px;
+    }
+    .icon-android-footer {
+        width: 128px;
+        height: 43px;
+        margin-left: 10px;
+    }
+    .icon-huawei-footer {
+        width: 126px;
+        height: 42px;
+        margin: 10px 0 0 20px;
+        background-color: transparent;
+    }
+}
+//-----------footer-second-----------
+.footer-second {
+    padding: 20px 0 25px;
+    background-color: var(--white);
+    .lzd-footer-inner {
+        overflow: hidden;
+        .lzd-footer-width-32 {
+            width: 32%;
+            float: left;
+            overflow: hidden;
+        }
+    }
+    .lzd-icon-payment {
+        margin: 0 25px 10px 0;
+        width: 53px;
+        height: 39px;
+        display: inline-block;
+    }
+    .lzd-footer-h3 {
+        font-size: 16px;
+        color: #183544;
+        font-weight: 400;
+        line-height: 2.2em;
+        margin-bottom: 15px;
+    }
+    .lzd-footer-zm {
+        height: 40px;
+        width: 40px;
+    }
+    //------------------
+    .lzd_footer_spacing {
+        margin-left: 4%;
+    }
+    .lzd-icon-delivery {
+        height: 70px;
+        width: 96px;
+    }
+    .img-verify {
+        display: block;
+        margin: 0 14px 10px 0;
+    }
+}
+.img-pointer {
+    cursor: pointer;
+}
+//---------Footer-third----------
+@mixin style-phone($i) {
+    text-decoration: underline;
+    text-decoration-color: #199cb7;
+}
+@mixin lzd-footer-category-tag($i) {
+    text-decoration: underline;
+    color: #888;
+}
+.footer-third {
+    background-color: var(--background-footer);
+    color: #888;
+    padding: 60px 0 40px;
+    .lzd-footer-inner {
+        overflow: hidden;
+    }
+    .lzd-footer-width-50 {
+        width: 50%;
+        overflow: hidden;
+        float: left;
+    }
+    .lzd_footer_left {
+        column-count: 2;
+    }
+    .lzd-footer-about {
+        padding-right: 25%;
+        span {
+            color: rgb(136, 136, 136);
+            background-color: rgb(244, 244, 246);
+            font-size: 12px;
+        }
+        @for $i from 1 through 14 {
+            .style-phone-#{$i} {
+                &:hover {
+                    @include style-phone($i);
+                }
+            }
+        }
+    }
+    .lzd-footer-title {
+        width: 256px;
+        font-size: 16px;
+        color: var(--color-title-footer);
+        font-weight: 300;
+        line-height: 20px;
+        margin: 0 0 5px;
+    }
+    .lzd-footer-new {
+        padding-right: 25%;
+    }
+
+    .lzd-footer-width-25 {
+        width: 25%;
+        float: left;
+        overflow: hidden;
+        .lzd-footer-top-category {
+            padding-right: 25%;
+        }
+    }
+    .lzd-footer-title {
+        font-size: 16px;
+        color: var(--color-title-footer);
+        font-weight: 300;
+        line-height: 20px;
+        margin: 0 0 5px;
+    }
+    .lzd-footer-categoty-margin {
+        margin-bottom: 12px;
+    }
+    .lzd-footer-title-small {
+        color: var(--color-title-footer);
+        font-weight: 300;
+        font-size: 11px;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 15px;
+    }
+    .phone {
+        height: 15px;
+        line-height: 15px;
+        display: inline-block;
+        font-size: 11px;
+    }
+    @for $i from 1 through 179 {
+        .lzd-footer-category-tag-#{$i} {
+            &:hover {
+                @include lzd-footer-category-tag($i);
+            }
+        }
+    }
+    .lzd-footer-tag-margin {
+        margin-top: 15px;
+    }
+}
+
+.lzd-footer-about p {
+    color: rgb(136, 136, 136);
+    background-color: rgb(244, 244, 246);
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    line-height: 14px;
+}
+
+//-----------Footer-Fourth------------
+.footer-fourth {
+    background-color: var(--white);
+    color: var(--color-title-footer);
+    padding: 40px 0;
+    .lzd-footer-inner {
+        overflow: hidden;
+        .lzd-footer-width-50 {
+            width: 50%;
+            overflow: hidden;
+            float: left;
+        }
+    }
+    .lzd-footer-title {
+        margin: 5px 10px 5px 0;
+        color: #2a2a2ad9;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .lzd-footer-country {
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+    }
+    .lzd-footer-width-25 {
+        width: 25%;
+        float: left;
+        overflow: hidden;
+    }
+    .lzd-footer-copyright {
+        float: right;
+        line-height: 20px;
+        font-size: 14px;
+        color: var(--color-title-footer);
+        font-weight: 200;
+    }
+}

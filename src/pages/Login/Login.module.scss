@@ -1,0 +1,24 @@
+.container {
+    min-height: 315px;
+    .login-title {
+        width: 810px;
+        margin: 50px auto 15px;
+        height: 26px;
+        .fill-in {
+            color: var(--link-color);
+        }
+    }
+    .login-title h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+    .login-other {
+        float: right;
+        margin-top: -26px;
+        color: #757575;
+    }
+}
+.setup-login {
+    height: 300px !important;
+}

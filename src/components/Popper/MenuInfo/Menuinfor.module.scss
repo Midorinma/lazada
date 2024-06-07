@@ -1,0 +1,38 @@
+.content {
+    height: auto;
+    background-color: var(--white);
+    border: 1px solid var(--lose-color-light);
+    padding: 25px 25px 10px;
+    font-size: 13px;
+    line-height: 1.3;
+    font-weight: 300;
+    margin: 0;
+}
+
+.content::after {
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-left-style: solid;
+    border-top-style: solid;
+    bottom: 10px;
+    content: '';
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-color: #bfbfbf;
+    left: -5px;
+}
+
+.menu-item {
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 5px 0 5px;
+    background-color: var(--white);
+    color: #6e686e;
+}

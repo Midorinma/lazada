@@ -1,0 +1,288 @@
+.lzd-playground {
+    width: 100%;
+    min-width: 1188px;
+    min-height: 474px;
+    background: #eff0f4;
+    position: relative;
+    padding-bottom: 40px;
+    .lzd-playground-main {
+        position: relative;
+        width: 1188px;
+        min-width: 1188px;
+        margin: 0 auto;
+        .lzd-playground-nav {
+            position: absolute;
+            background: #eff0f4;
+            width: 158px;
+            height: 438px;
+            padding-top: 16px;
+            .member-info {
+                font-family: 'Roboto-Regular';
+                font-size: 12px;
+                line-height: 22px;
+                color: #424242;
+                letter-spacing: 0;
+            }
+            .member-info > p {
+                line-height: 22px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 158px;
+                display: block;
+                overflow: hidden;
+            }
+            .member-info > p span {
+                display: inline-block;
+                line-height: 22px;
+                height: 22px;
+            }
+            .nav-container {
+                list-style: none;
+                margin: 16px 0 0;
+                padding: 0;
+                font-family: 'Roboto-Regular';
+                font-size: 16px;
+                color: #424242;
+                letter-spacing: 0;
+                line-height: 24px;
+                .item {
+                    margin: 16px 0 0;
+                    h3 {
+                        text-decoration: none;
+                        color: #424242;
+                        font-family: 'Roboto-Medium';
+                        font-size: 17px;
+                    }
+                    .item-container {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0 0 0 16px;
+                    }
+                    .item-container li p {
+                        cursor: pointer;
+                        font-family: Roboto-Regular;
+                        font-size: 14px;
+                        color: #757575;
+                        letter-spacing: 0;
+                        line-height: 22px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .lzd-playground-right {
+            position: relative;
+            margin-left: 201px;
+            .breadcrumb {
+                height: 60px;
+                line-height: 60px;
+                font-family: 'Roboto-Regular';
+                font-size: 13px;
+                color: #5d5d5d;
+                letter-spacing: 0.09px;
+                h3 {
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: #424242;
+                }
+            }
+            .container {
+                width: 988px;
+                min-height: 560px;
+                margin: 0 auto 30px;
+                background: none;
+                .dashboard {
+                    position: relative;
+                    .dashboard-profile {
+                        width: 288px;
+                        height: 182px;
+                        background-color: #fff;
+                        padding: 16px;
+                        margin-right: 12px;
+                        float: left;
+                        .dashboard-mod-title {
+                            color: #212121;
+                            font-size: 16px;
+                            margin-bottom: 16px;
+                            height: 20px;
+                            line-height: 20px;
+                            span {
+                                color: #dadada;
+                                font-size: 12px;
+                                padding-left: 1rem;
+                            }
+                            p {
+                                font-size: 12px;
+                                color: #1a9cb7;
+                                background-color: transparent;
+                                display: inline-block;
+                                padding-left: 1rem;
+                            }
+                        }
+                        .dashboard-info {
+                            word-wrap: break-word;
+                            hyphens: auto;
+                            overflow-y: auto;
+                            height: 154px;
+                            .dashboard-info-item {
+                                font-size: 14px;
+                                color: #424242;
+                                margin-bottom: 10px;
+                            }
+                            .dashboard-info-item-check {
+                                font-size: 14px;
+                                color: #424242;
+                                margin-bottom: 10px;
+                                .dashboard-info-item-check-sub {
+                                    margin-top: 10px;
+                                    label {
+                                        cursor: pointer;
+                                        user-select: none;
+                                        .next-checkbox {
+                                            box-sizing: border-box;
+                                            display: inline-block;
+                                            vertical-align: middle;
+                                            position: relative;
+                                            width: 16px;
+                                            height: 16px;
+                                            line-height: 14px;
+                                        }
+                                        .next-checkbox-label {
+                                            color: #212121;
+                                            font-family: Roboto, Helvetica Neue,
+                                                Helvetica, Tahoma, Arial,
+                                                Sans-serif;
+                                            font-size: 12px;
+                                            vertical-align: middle;
+                                            line-height: 1;
+                                            margin: 0 5px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .dashboard-address {
+                        background-color: #fff;
+                        padding: 16px;
+                        overflow: hidden;
+                        height: 182px;
+                        .dashboard {
+                            width: 50%;
+                            height: 100%;
+                            display: inline-block;
+                            vertical-align: top;
+                            box-sizing: border-box;
+                            word-wrap: break-word;
+                            hyphens: auto;
+                            overflow-y: auto;
+                        }
+                        .dashboard-address-item-shipping {
+                            padding-right: 16px;
+                            .dashboard-mod-title {
+                                color: #212121;
+                                font-size: 16px;
+                                margin-bottom: 16px;
+                                height: 20px;
+                                line-height: 20px;
+                                span {
+                                    color: #dadada;
+                                    font-size: 12px;
+                                    padding-left: 1rem;
+                                }
+                                p {
+                                    font-size: 12px;
+                                    color: #1a9cb7;
+                                    display: inline-block;
+                                    padding-left: 1rem;
+                                    background-color: transparent;
+                                }
+                            }
+                            .dashboard-address-default {
+                                margin: 15px 0;
+                                font-size: 12px;
+                                color: #757575;
+                            }
+                            .dashboard-address-username {
+                                font-size: 14px;
+                                color: #212121;
+                                margin-bottom: 10px;
+                                font-weight: 700;
+                            }
+                            .dashboard-address-detail {
+                                color: #212121;
+                                margin-bottom: 5px;
+                            }
+                        }
+                    }
+                    .recent-orders {
+                        background-color: #fff;
+                        margin-top: 20px;
+                        .recent-orders-hd {
+                            padding-left: 16px;
+                            height: 50px;
+                            color: #212121;
+                            font-size: 16px;
+                            line-height: 50px;
+                        }
+                        .only-bottom-border {
+                            border-width: 0;
+                            box-sizing: border-box;
+                            color: #212121;
+                            font-family: Roboto, Helvetica Neue, Helvetica,
+                                Tahoma, Arial, Sans-serif;
+                            font-size: 14px;
+                            line-height: 1.28571;
+                            position: relative;
+                            .next-table-inner {
+                                box-sizing: border-box;
+                                .next-table-header {
+                                    overflow: auto;
+                                    font-size: 14px;
+                                    .next-table-header-inner {
+                                        overflow: hidden;
+                                        table {
+                                            border-collapse: collapse;
+                                            border-spacing: 0;
+                                            width: 100%;
+                                            table-layout: fixed;
+                                            background: #fff;
+                                            .next-table-header-node {
+                                                border-width: 0 0 1px;
+                                                padding: 0;
+                                                background: #fafafa;
+                                                color: #757575;
+                                                text-align: left;
+                                                font-weight: 400;
+                                                border: 1px solid #eff0f5;
+                                                .next-table-cell-wrapper {
+                                                    padding: 16px 20px;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                    word-break: break-all;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .next-table-body {
+                                    font-size: 14px;
+                                    overflow: auto;
+                                    table {
+                                        border-collapse: collapse;
+                                        border-spacing: 0;
+                                        width: 100%;
+                                        table-layout: fixed;
+                                        background: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

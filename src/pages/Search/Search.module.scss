@@ -1,0 +1,42 @@
+.wrapper {
+    background-color: var(--white);
+    .breadcrumb_list {
+        height: 48px;
+        border-bottom: 1px solid #eff0f5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .root {
+        position: relative;
+        min-height: 500px;
+        .FWSEp {
+            min-height: 500px;
+            width: 1200px;
+            margin: 10px auto 20px;
+            font-family: 'Roboto-Regular';
+            clear: both;
+            .ant-row-FrEdP {
+                margin-top: 10px;
+                display: flex;
+                flex-flow: row wrap;
+                min-width: 0;
+                .ant-col-24 {
+                    position: relative;
+                    min-height: 1px;
+                    display: block;
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    .ant-row {
+                        display: flex;
+                        flex-flow: row wrap;
+                        min-width: 0;
+                        .ant-col-push-4-Jv5R8 {
+                            width: 80%;
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

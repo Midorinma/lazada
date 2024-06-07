@@ -1,0 +1,100 @@
+.menu-popper {
+    width: 430px !important;
+    padding: 8px;
+    .pdp-mod-multibuy-item {
+        padding-top: 8px;
+        display: flex;
+        flex-direction: column;
+        .multibuy-item-header {
+            height: 42px;
+            .condition {
+                font-size: 14px;
+                line-height: 18px;
+                color: var(--primary);
+                text-align: left;
+                padding: 8px 16px 16px;
+            }
+        }
+        .multibuy-item-footer {
+            padding: 11px 16px;
+            border-top: 1px dashed var(--input-color);
+            .expiry-date {
+                display: inline-block;
+                max-width: 75%;
+                color: var(--color-pray-icon);
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+.module_promotion_tags {
+    .pdp-mod-product-info-section {
+        padding: 4px 0 8px 0;
+        .section-title {
+            margin-top: 4px;
+            height: 24px;
+            width: 92px;
+            color: var(--color-pray-icon);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            word-wrap: break-word;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .section-content {
+            display: inline-block;
+            width: calc(100% - 92px);
+            .tag-list {
+                display: flex;
+                align-items: flex-end;
+                flex-wrap: wrap;
+                .promotion-tag-item {
+                    box-sizing: border-box;
+                    margin: 4px 15px 4px 0;
+                    max-width: 100%;
+                    display: inline-block;
+                    position: relative;
+                    padding: 0 12px 0 8px;
+                    height: 24px;
+                    line-height: 24px;
+                    color: var(--white);
+                    font-size: 12px;
+                    background-color: var(--primary);
+                    .tag-name {
+                        display: inline-block;
+                        max-width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+                .promotion-tag-item::before {
+                    position: absolute;
+                    top: 10px;
+                    right: 7px;
+                    content: '';
+                    border-color: var(--white) transparent transparent;
+                    border-style: solid;
+                    border-width: 5px 4px;
+                }
+                .promotion-tag-item::after {
+                    position: absolute;
+                    top: 0;
+                    right: -7px;
+                    display: inline-block;
+                    content: '';
+                    border-color: #ff9800 transparent;
+                    border-style: solid;
+                    border-width: 12px 7px;
+                }
+                .has_arrow {
+                    padding-right: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

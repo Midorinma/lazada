@@ -1,0 +1,197 @@
+.ant-col-pull-20-8URhT {
+    width: 20%;
+    float: left;
+    .see {
+        padding: 0 5px;
+        .gJ98q {
+            ._9xWFp {
+                font-size: 14px;
+                color: #212121;
+            }
+            .y9-OE {
+                margin-top: 10px;
+                padding-bottom: 20px;
+                .uM5g9-GyKoD {
+                    max-height: 186px;
+                    text-align: left;
+                    overflow: hidden;
+                    transition: max-height 0.5s;
+                    .DMfHy {
+                        text-decoration: none;
+                        display: block;
+                        font-size: 13px;
+                        line-height: 18px;
+                        color: #757575;
+                        &:hover {
+                            color: #f57224;
+                        }
+                    }
+                    .ant-checkbox-wrapper {
+                        display: block;
+                        font-size: 13px;
+                        color: #757575;
+                        line-height: 18px;
+                        user-select: none;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        box-sizing: border-box;
+                        margin-bottom: 5px;
+                        padding: 0;
+                        font-variant: tabular-nums;
+                        list-style: none;
+                        font-feature-settings: 'tnum';
+                        cursor: pointer;
+                        .ant-checkbox {
+                            box-sizing: border-box;
+                            margin: 0;
+                            padding: 0;
+                            color: rgba(0, 0, 0, 0.85);
+                            font-size: 14px;
+                            font-variant: tabular-nums;
+                            list-style: none;
+                            font-feature-settings: 'tnum';
+                            position: relative;
+                            top: 0.2em;
+                            line-height: 1;
+                            white-space: nowrap;
+                            outline: none;
+                            cursor: pointer;
+                        }
+                        .ant-checkbox + span {
+                            padding-left: 8px;
+                            padding-right: 8px;
+                        }
+                    }
+                    .ant-checkbox-wrapper::after {
+                        display: inline-block;
+                        width: 0px;
+                        content: ' ';
+                        overflow: hidden;
+                    }
+                }
+                .iSqXl {
+                    font-family: 'Roboto-Medium';
+                    margin-top: 5px;
+                    color: #1a9cb7;
+                    cursor: pointer;
+                    font-size: 13px;
+                }
+                .ant-select {
+                    width: 100%;
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                    color: rgba(0, 0, 0, 0.85);
+                    font-size: 14px;
+                    font-variant: tabular-nums;
+                    line-height: 1.5715;
+                    list-style: none;
+                    font-feature-settings: 'tnum';
+                    position: relative;
+                    display: inline-block;
+                    cursor: pointer;
+                    .ant-select-selector select {
+                        width: 100%;
+                        height: 32px;
+                        padding: 0 11px;
+                    }
+                    select:focus {
+                        outline: none;
+                    }
+                }
+                ._9q6lF {
+                    margin-top: 9px;
+                }
+                ._1lPeN {
+                    margin-top: 8px;
+                    .q9tZB {
+                        float: left;
+                        display: block;
+                        width: 70px;
+                        height: 30px;
+                        padding: 0 7px;
+                        text-align: left;
+                        color: #404040;
+                        border: 1px solid #a8a8a8;
+                        border-radius: 3px;
+                        outline: 0;
+                        background-color: #fff;
+                        box-shadow: 0 1px 1px 0 #ececec;
+                        transition: all 0.3s linear;
+                        min-width: auto;
+                    }
+                    .n9LhC {
+                        float: left;
+                        width: 10px;
+                        text-align: center;
+                        line-height: 30px;
+                        color: grey;
+                    }
+                    .ant-btn-primary {
+                        float: left;
+                        height: 30px;
+                        padding: 0 7px;
+                        border-radius: 3px;
+                        outline: 0;
+                        margin-left: 4px;
+                        background-color: #f79458;
+                        border-color: #f79458;
+                        width: 32px;
+                        font-size: 16px;
+                        vertical-align: -3px;
+                        color: #fff;
+                        cursor: pointer;
+                        transition: all 0.3s
+                            cubic-bezier(0.645, 0.045, 0.355, 1);
+                        border: 1px solid #d9d9d9;
+                        &:hover {
+                            color: #fff;
+                            border-color: #40a9ff;
+                            background: #40a9ff;
+                        }
+                    }
+                }
+                ._1lPeN:after,
+                ._1lPeN:before {
+                    display: table;
+                    content: '';
+                }
+                ._1lPeN:after {
+                    clear: both;
+                }
+                .dumOn {
+                    color: grey;
+                    cursor: pointer;
+
+                    .ant-rate {
+                        font-size: 15px;
+                        box-sizing: border-box;
+                        font-variant: tabular-nums;
+                        font-feature-settings: 'tnum';
+                        display: inline-block;
+                        margin: 0;
+                        padding: 0;
+                        line-height: unset;
+                        list-style: none;
+                        outline: none;
+                        .ant-rate-star {
+                            position: relative;
+                            display: inline-block;
+                            cursor: pointer;
+                            margin-right: 3px;
+                            .pray-star {
+                                position: relative;
+                                top: -2px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .gJ98q + .gJ98q {
+            border-top: 1px solid #ececec;
+            padding-top: 16px;
+        }
+    }
+}

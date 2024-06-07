@@ -1,0 +1,75 @@
+.voucher-input {
+    margin: 0 !important;
+    padding: 8px 14px;
+    background: #fff;
+    .voucher-title {
+        font-size: 18px;
+        color: #212121;
+        margin-bottom: 14px;
+    }
+    .voucher-input-inner {
+        display: table;
+        width: 100%;
+        margin-bottom: 4px;
+        .voucher-input-col1 {
+            display: table-cell;
+            vertical-align: middle;
+            padding-right: 8px;
+            .next-input {
+                border-color: #dadada;
+                width: 100%;
+                display: inline-table;
+                border-collapse: separate;
+                overflow: visible;
+                border: 1px solid #d5d5d6;
+                border-spacing: 0;
+                background-color: #fff;
+                transition: all 0.3s ease-out;
+                input {
+                    color: #212121;
+                    border-radius: 0;
+                    height: 38px;
+                    margin: 0;
+                    padding: 0 8px;
+                    font-size: 14px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    font-weight: 400;
+                    vertical-align: baseline;
+                    background-color: transparent;
+                }
+            }
+        }
+        .voucher-input-col2 {
+            width: 104px;
+            display: table-cell;
+            vertical-align: middle;
+            .next-btn-normal {
+                position: relative;
+                font-style: normal;
+                font-family: inherit;
+                border-radius: 2px;
+                text-align: center;
+                outline: 0;
+                border: none;
+                height: auto;
+                line-height: 40px;
+                width: 104px;
+                display: block;
+                background-color: #1a9cb7;
+                color: #fff;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 0;
+            }
+            .next-btn-normal::after {
+                text-align: center;
+                position: absolute;
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity 0.5s ease;
+            }
+        }
+    }
+}

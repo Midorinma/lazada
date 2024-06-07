@@ -1,0 +1,31 @@
+%node {
+    display: block;
+    clear: both;
+    padding-top: 24px;
+}
+
+%nodeHeader {
+    height: 38px;
+    line-height: 38px;
+    background-color: var(--primary-theme);
+}
+
+%nodeTitle {
+    float: left;
+    font-family: var(--font-family);
+    font-size: 22px;
+    color: var(--card-title);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-jfy {
+    @extend %node;
+    .hp-mod-card-header {
+        @extend %nodeHeader;
+        .hp-mod-card-title {
+            @extend %nodeTitle;
+        }
+    }
+}

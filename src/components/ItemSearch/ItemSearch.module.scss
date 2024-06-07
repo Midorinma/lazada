@@ -1,0 +1,19 @@
+.wrapper {
+    display: block;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.user-tab {
+    padding-bottom: 1rem;
+}
+.username {
+    font-family: Roboto-Regular, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1;
+    padding: 8px 20px;
+    &:hover {
+        color: var(--primary);
+    }
+}

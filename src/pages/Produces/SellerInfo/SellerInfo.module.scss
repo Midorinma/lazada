@@ -1,0 +1,110 @@
+.module_seller_info {
+    .seller-container {
+        background-color: #fafafa;
+        font-size: 12px;
+        color: #212121;
+        margin-top: 10px;
+        .seller-name-retail {
+            margin-top: 8px;
+            background-color: #fafafa;
+            padding: 13px 16px 10px;
+            display: flex;
+            flex-direction: row;
+            .seller-name__wrapper {
+                flex: 1;
+                .seller-name__title {
+                    color: #757575;
+                    font-size: 12px;
+                    margin-bottom: 4px;
+                }
+                .seller-name__detail {
+                    font-size: 16px;
+                    .pdp-link_theme_black {
+                        text-decoration: none;
+                        margin-right: 14px;
+                        font-size: 16px;
+                        color: #212121;
+                    }
+                }
+            }
+            .seller-im-wrapper {
+                width: 85px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-left: 14px;
+                .seller-im-content {
+                    cursor: pointer;
+                    color: #199cb7;
+                    font-size: 14px;
+                    font-family: Roboto-Medium;
+                    display: flex;
+                    .seller-im-icon {
+                        margin-right: 4px;
+                        font-size: 16px;
+                        .svgfont {
+                            display: inline-block;
+                            width: 1em;
+                            height: 1em;
+                            fill: currentColor;
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+        .pdp-seller-info-pc {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            border-top: 1px solid #eff0f5;
+            .seller-info-title {
+                margin-bottom: 20px;
+                font-size: 12px;
+                line-height: 14px;
+                height: 28px;
+                overflow: hidden;
+                color: #757575;
+            }
+            .seller-info-value {
+                font-size: 26px;
+                line-height: 30px;
+            }
+            .gray_text {
+                font-size: 12px;
+                color: #ccc;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                height: 30px;
+            }
+            .info-content:first-child {
+                border-left: none;
+                padding-left: 16px;
+            }
+            .info-content {
+                padding: 8px 10px;
+                box-sizing: border-box;
+                border-left: 1px solid #eff0f5;
+                font-size: 14px;
+                text-align: left;
+                display: table-cell;
+                width: 33.3333333333%;
+                vertical-align: top;
+                position: relative;
+                cursor: pointer;
+            }
+        }
+        .seller-link {
+            padding: 15px;
+            text-align: center;
+            font-weight: 500;
+            font-family: var(--font-family);
+            border-top: 1px solid #eff0f5;
+            .pdp-link_theme_blue {
+                font-size: 13px;
+                color: #1a9cb7;
+            }
+        }
+    }
+}

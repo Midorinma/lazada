@@ -1,0 +1,27 @@
+.next-table-row {
+    transition: all 0.3s ease;
+    .next-table-cell {
+        border-width: 0 0 1px;
+        padding: 0;
+        border: 1px solid #eff0f5;
+        .next-table-cell-wrapper {
+            padding: 16px 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+            .recent-item {
+                float: left;
+                margin-right: 4px;
+                img {
+                    border-style: none;
+                    vertical-align: middle;
+                    border: none;
+                }
+            }
+            .manage-order {
+                color: #1a9cb7;
+                cursor: pointer;
+            }
+        }
+    }
+}

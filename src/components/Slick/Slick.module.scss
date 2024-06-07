@@ -1,0 +1,106 @@
+.wrapper {
+    width: var(--width-default);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    margin-top: 1.5rem;
+}
+
+.banner-show {
+    width: var(--default-layout-width);
+    display: flex;
+    justify-content: space-between;
+}
+.slick-slider {
+    height: var(--height-slick-slide);
+    width: calc(var(--default-layout-width) - 200px);
+}
+
+.hide {
+    display: none;
+}
+.react-image-zoom-slickProducts-wrapper {
+    width: 338px;
+    height: 402px;
+    position: relative;
+
+    .react-image-zoom {
+        margin-bottom: 9px;
+        .react-image-zoom-slickProducts1 {
+            margin: 8px 0 10px 8px;
+            .img-zoom {
+                position: absolute;
+                top: 0;
+                left: 100%;
+                z-index: 999;
+            }
+        }
+    }
+    .react-image-zoom-slickSlider {
+        padding: 0 10px;
+    }
+    .slickProduct-slider2 {
+        padding-left: 15px;
+        width: 338px;
+        .slickSlider-image {
+            object-fit: cover;
+            &:hover {
+                border: 1px solid var(--primary);
+            }
+        }
+    }
+}
+
+.arrowNext {
+    width: 28px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    padding-left: 10px;
+    background-color: white;
+    &:hover {
+        background-color: white;
+    }
+}
+
+.arrowPrev {
+    width: 28px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 0;
+    margin-left: -3px;
+    background-color: white;
+    &:hover {
+        background-color: white;
+    }
+}
+$active: #757575;
+$disabled: #9e9e9e;
+.arrowNext::before {
+    color: $active;
+    font-family: 'Font Awesome 5 Free' !important;
+    content: '\f105' !important;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.arrowPrev::before {
+    color: $active;
+    font-family: 'Font Awesome 5 Free' !important;
+    content: '\f104' !important;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.disabled {
+    cursor: not-allowed !important;
+}

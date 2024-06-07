@@ -1,0 +1,157 @@
+%node {
+    display: block;
+    clear: both;
+    padding-top: 24px;
+}
+%nodeHeader {
+    height: 38px;
+    line-height: 38px;
+    background-color: var(--primary-theme);
+}
+%nodeTitle {
+    float: left;
+    font-family: var(--font-family);
+    font-size: 22px;
+    color: var(--card-title);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wrapper {
+    width: var(--default-layout-width);
+    margin: 0 auto;
+}
+//---------Header-menu----------
+.cart-channel-btn {
+    width: 287.48px;
+}
+.cart {
+    background-color: var(--background-theme-color);
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    &:hover {
+        background-color: var(--white);
+        box-shadow: 1px 2px 10px -5px var(--black);
+    }
+}
+//----------flash sale----------
+.hp-mod-flash-card {
+    @extend %node;
+}
+
+.mod-card-header {
+    font-size: 12px;
+    height: var(--height-title);
+    background-color: var(--primary-theme);
+    font-family: var(--font-family);
+    line-height: 38px;
+}
+.mod-card-title {
+    @extend %nodeTitle;
+}
+
+.card-fs-content {
+    margin-bottom: 12px;
+    background-color: var(--white);
+    height: 375px;
+}
+
+.card-fs-content-header {
+    overflow: hidden;
+    border-bottom: #d5d5d5 1px solid;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .card-fs-content-button {
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px 11px 0px 5px;
+        height: 35px;
+        width: 160.69px;
+        background-color: transparent;
+        border-radius: 2px;
+        float: right;
+    }
+}
+
+.card-fs-content-header-left {
+    height: 60px;
+    display: flex;
+}
+
+.card-fs,
+.pull_left {
+    float: left;
+}
+
+.card-fs-content-header-left-status {
+    margin-left: 2rem;
+    .fs-status-text {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--primary);
+    }
+}
+
+//-------LazMall-------------
+.card-official-stores {
+    @extend %node;
+    .hp-mod-card-header {
+        @extend %nodeHeader;
+        display: flex;
+        justify-content: space-between;
+        .hp-mod-card-title {
+            @extend %nodeTitle;
+        }
+        .text {
+            font-family: var(--font-family);
+            font-weight: 600;
+            float: right;
+            margin-right: 0;
+            font-size: 14px;
+            color: #1a9cb7;
+            border: none;
+            outline: none;
+            background-color: inherit;
+        }
+    }
+}
+
+//--------Categories--------
+.card-categories {
+    @extend %node;
+    .hp-mod-card-header {
+        @extend %nodeHeader;
+        .hp-mod-card-title {
+            @extend %nodeTitle;
+        }
+    }
+}
+
+//---------Card Bottom Bank-----------
+.card-bottom-banner {
+    @extend %node;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.card-bottom-banner-ul {
+    display: flex;
+    .card-bottom-banner-li {
+        width: 388px;
+        height: 97px;
+        margin-right: 12px;
+        .card-bottom-banner-li-content {
+            display: block;
+            height: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

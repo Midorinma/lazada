@@ -1,0 +1,36 @@
+.wrapper {
+    color: rgb(32, 32, 32);
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif !important;
+    width: 1000px;
+    margin: 0 auto;
+    .section {
+        padding: 30px;
+        background: #fff;
+        border-bottom: 10px solid #f0f0f0;
+        .header-title {
+            color: #0f146d;
+            text-align: center;
+            padding: 10px 30px 30px 30px;
+            font-size: 23px;
+            font-weight: normal;
+        }
+        .section-content {
+            width: 100%;
+            h2 {
+                font-size: 16px !important;
+                font-weight: normal;
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+            .two-col {
+                padding-top: 10px;
+                width: 100% !important;
+                float: none !important;
+                max-width: none !important;
+                margin-left: 30rem;
+            }
+        }
+    }
+}
