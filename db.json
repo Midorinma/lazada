@@ -5887,15 +5887,53 @@
       "year": "2010",
       "gender": "female",
       "id": 3,
-      "user": "\"Quynhbupbe123@gmail.com\"",
+      "user": "Quynhbupbe123@gmail.com",
       "isAuthenticated": true,
       "error": null,
       "loading": false,
       "productList": [],
-      "shipping": [],
-      "order": [],
-      "total": [],
-      "saveTotal": []
+      "shipping": [
+        {
+          "img": "https://lzd-img-global.slatic.net/g/p/6ef4b5d36bf6d9971614f3f48fdd13ca.jpg_720x720q80.jpg_.webp",
+          "title": "Áo croptop nữ phối viền full màu",
+          "colorFamily": "Trắng",
+          "size": "Int:L",
+          "time": "12-07-2025",
+          "quantity": "2",
+          "order": "066475025850173",
+          "price": "31,000",
+          "priceOld": "26,000",
+          "discount": "-32%"
+        }
+      ],
+      "order": [
+        {
+          "img": "https://lzd-img-global.slatic.net/g/p/6ef4b5d36bf6d9971614f3f48fdd13ca.jpg_720x720q80.jpg_.webp",
+          "title": "Áo croptop nữ phối viền full màu",
+          "colorFamily": "Trắng",
+          "size": "Int:L",
+          "time": "12-07-2025",
+          "quantity": "2",
+          "order": "066475025850173",
+          "price": "31,000",
+          "priceOld": "26,000",
+          "discount": "-32%"
+        }
+      ],
+      "total": [
+        {
+          "subTotal": "62",
+          "shippingFree": "17.5",
+          "total": "79.5"
+        }
+      ],
+      "saveTotal": [
+        {
+          "subTotal": "62",
+          "shippingFree": "17.5",
+          "total": "79.5"
+        }
+      ]
     }
   ]
 }
